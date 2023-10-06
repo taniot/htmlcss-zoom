@@ -20,6 +20,11 @@ body {
   font-family: 'AR One Sans', sans-serif;
 }
 
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .btn {
   all: unset;
   color: inherit;
@@ -34,13 +39,13 @@ body {
   border-radius: 5px;
 }
 
-.btn.btn-secondary:active {
-  background-color: red;
-}
-
 .btn.btn-secondary:hover {
   background-color: yellow;
   color: #000000;
+}
+
+.btn.btn-secondary:active {
+  background-color: red;
 }
 
 /*
@@ -49,7 +54,6 @@ Header
 
 header {
   height: 50px;
-
   text-align: right;
   padding: 5px 5px 0 0;
 }
@@ -60,11 +64,44 @@ Main
 
 main {
   height: calc(100% - 50px - 80px);
-  background-color: green;
+  overflow-y: auto;
+  padding-bottom: 100px;
 }
 
-::-webkit-search-results-buttonsass
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.person {
+  width: 240px;
+  border: 1px dotted black;
+  padding: 5px;
+}
+
+.person-info {
+  position: relative;
+}
+
+.person-info img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.person-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 3px 5px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.person-name i {
+  color: red;
+}
 
 /*
 Footer

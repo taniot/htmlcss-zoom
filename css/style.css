@@ -110,4 +110,12 @@ Footer
 footer {
   height: 80px;
   background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left,
+.footer-right {
+  width: 15%;
 }

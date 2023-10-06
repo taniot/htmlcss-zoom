@@ -12,14 +12,65 @@ Reset
 Common
 */
 
+body {
+  background-color: #000000;
+  color: #ffffff;
+  height: 100vh;
+  /* font-size: 11px; */
+  font-family: 'AR One Sans', sans-serif;
+}
+
+.btn {
+  all: unset;
+  color: inherit;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn.btn-secondary {
+  background-color: #4a4a4a;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.btn.btn-secondary:active {
+  background-color: red;
+}
+
+.btn.btn-secondary:hover {
+  background-color: yellow;
+  color: #000000;
+}
+
 /*
 Header
 */
+
+header {
+  height: 50px;
+
+  text-align: right;
+  padding: 5px 5px 0 0;
+}
 
 /*
 Main
 */
 
+main {
+  height: calc(100% - 50px - 80px);
+  background-color: green;
+}
+
+::-webkit-search-results-buttonsass
+
+
 /*
 Footer
 */
+
+footer {
+  height: 80px;
+  background-color: red;
+}

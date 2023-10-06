@@ -119,3 +119,22 @@ footer {
 .footer-right {
   width: 15%;
 }
+
+.footer-left {
+  padding-left: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+/* .footer-tool {
+  margin-right: 10px;
+} */
+
+.btn.footer-tool i {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.btn.chevron i {
+  font-size: 10px;
+}
